@@ -1,0 +1,56 @@
+
+
+p{
+  font-family:Arial, Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+.new{
+  color: orange;
+  font-weight: 600;
+  text-align: center;
+
+  
+
+}
+
+.mac{
+  font-size: x-large;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 6px;
+
+}
+.pros{
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 6px;
+}
+.cost{
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 300;
+
+}
+.buy{
+  background-color: rgb(50, 64, 223);
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-left: 326px;
+  margin-top: 10px;
+  cursor: pointer;
+
+}
+.buy:hover{
+  opacity: 0.7;
+}
+.buy:active{
+  opacity: 0.5;
+
+}

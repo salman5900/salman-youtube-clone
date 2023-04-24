@@ -1,0 +1,81 @@
+
+
+.tumb{
+  /* hi testing comment*/
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.tumb:hover{
+  border-radius: 0px;
+
+}
+
+.channel-info-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+
+}
+
+.profile-pic{
+  width: 36px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.para{
+  margin-top: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.tumb-row{
+  margin-bottom: 10px;
+  position:relative;
+  z-index: 2;
+  
+}
+.vedio-time{
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px;
+  border-radius: 2px;
+}
+
+
+.author,
+.stats{
+  color:gray;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.vedio-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  column-gap: 20px;
+  row-gap: 40px;
+ 
+}
+@media (max-width: 900px) {
+  .vedio-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+  
+
+
+
+@media (min-width:1400px){
+  .vedio-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
